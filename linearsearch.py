@@ -1,4 +1,4 @@
-tour_locations = ["New York", "Pakistan", "Los Angeles", "Chicago", "India", "Pakistan"]
+tour_locations = ["Pakistan", "New York", "Los Angeles", "Chicago", "India", "Pakistan"]
 target_city = "Pakistan"
 
 def linearsearch(search_list, target_value):

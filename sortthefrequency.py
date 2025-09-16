@@ -29,7 +29,7 @@ def sortByFrequencyAndIndex(arr):
 
 if __name__ == "__main__":
 
-    arr = [3,3,3,3,3,3,1,1,1,1,5,5,5,87,87,87,87,2,2,2,1,1,1,4,4]
+    arr = [3,3,3,3,3,3,1,1,1,1,5,5,5,87,87,87,87,2,2,2,98,98,98,0,0,0,0,1,1,1,4,4]
     print("Original Array:", arr)
     sortByFrequencyAndIndex(arr)            
 print("Sorted Array:", arr)

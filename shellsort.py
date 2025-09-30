@@ -1,5 +1,5 @@
 # Shell Sort in Python
-A = [9, 8, 3, 6, 7, 2, 5, 4, 1, 0, 10]
+A = [9, 8, 3, 6, 7, 2, 5, 4, 1, 0, 10, 11, 13, 12]
 # intializing n
 n = len(A)
 

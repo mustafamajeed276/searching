@@ -39,7 +39,7 @@ def quicksSort(A,low,high):
         quicksSort(A, pi + 1, high)
 
 # driver code
-A = [8, 17, 22, 12, 0, 9, 16]
+A = [12, 17, 8, 5, 45, 45.1, 29, -5, 67, 0, 3.14, 23, 9.000001, 9.000000001, 9, 8.999999, 8.9999998, 1000000]
 print("Unsorted array: ")
 print(A)
 

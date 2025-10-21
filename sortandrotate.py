@@ -1,5 +1,5 @@
 #program to check if the arrayu is rotated and orted
-arr = [3, 4, 5, 1, 2]
+arr = [3, 1, 5, 7 , 8, 6, 5]
 n = len(arr)
 count = 0
 #terating loop from 1 to lenght of array

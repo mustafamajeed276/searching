@@ -10,8 +10,7 @@ class Stack:
         self.q1.append(x)
 
     def pop(self):
-
-        if (not self.q1):
+        if (self.q1):
             return
         
         while (len(self.q1) != 1):
@@ -20,7 +19,6 @@ class Stack:
         self.q1, self.q2 = self.q2, self.q1
 
     def top(self):
-
         if (not self.q1):
             return
 
@@ -39,12 +37,9 @@ class Stack:
     
 if __name__ == '__main__':
     s = Stack()
-    s.push(6)
-    s.push(7)
-    s.push(6)
-    s.push(7)
-    s.push(6)
-    s.push(7)
+    s.push(1)
+    s.push(2)
+    s.push(3)
 
     print("current size: " , s.size())     
     print(s.top())
@@ -52,10 +47,5 @@ if __name__ == '__main__':
     print(s.top())
     s.pop()
     print(s.top())
-    s.pop()
-    print(s.top())
-    print(s.top())
-    print(s.top())
-    
 
     print("current size: " , s.size())

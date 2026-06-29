@@ -11,6 +11,7 @@ def search(root, key):
     
     if root.val < key:
         return search(root.right, key)
+    
     return search(root.left, key)
 
 root = Node(50)
@@ -24,7 +25,7 @@ root.right.right = Node(80)
 key = int(input("Enter the value to search: "))
 result = search(root, key)
 
-if result is not None:
+if result:
     print("key found", result.val)
 else:
     print("key not found")

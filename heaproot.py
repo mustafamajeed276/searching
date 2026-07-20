@@ -85,23 +85,27 @@ class MaxHeap:
 
 if __name__ == "__main__":
 
-    h = MaxHeap(15)
+    h = MaxHeap(10)
 
     k, i, n = 6, 0, 6
-    print("Entered 6 keys: 3, 10, 12, 8, 2, 14 \n")
+    print("Entered 6 keys: 67, 87, 92, 3, 57, 9, 56, 45, 1 \n")
+    h.insertKey(67)
+    h.insertKey(87)
+    h.insertKey(92)
     h.insertKey(3)
-    h.insertKey(10)
-    h.insertKey(12)
-    h.insertKey(8)
-    h.insertKey(2)
-    h.insertKey(14)
+    h.insertKey(57)
+    h.insertKey(9)
+    h.insertKey(56)
+    h.insertKey(45)
+    h.insertKey(1)
 
     print("The current heap size is: " + str(h.curSize()) + "\n")
 
     print("The maximum value is: " + str(h.getMax()) + "\n")
 
-    h.deleteKey(2)
+    h.deleteKey(5)
 
+    print("After Deletion \n")
     print("The current heap size is: " + str(h.curSize()) + "\n")
 
     h.insertKey(15)
@@ -109,5 +113,5 @@ if __name__ == "__main__":
 
     print("The current heap size is: " + str(h.curSize()) + "\n")
     print("The maximum value is: " + str(h.getMax()) + "\n")
-
-
+    
+    print(h.arr)

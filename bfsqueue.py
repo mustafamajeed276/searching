@@ -1,4 +1,4 @@
-from collections import defauldict
+from collections import defaultdict
 
 class Graph:
     def __init__(self):
